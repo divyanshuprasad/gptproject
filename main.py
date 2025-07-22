@@ -23,7 +23,7 @@ dotenv.load_dotenv()
 # OpenAI configuration
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 VECTOR_STORE_ID = os.environ.get("VECTOR_STORE_ID", "")
-print(VECTOR_STORE_ID)
+
 # Initialize OpenAI client
 openai_client = OpenAI()
 
